@@ -1,0 +1,45 @@
+#clock-container{
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    background: url(clipart-clock-nye-15.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#hour,#min,#secs{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hour{
+    background: red;
+    width: 1.8%;
+    height: 25%;
+    top: 23.5%;
+    left: 49%;
+    opacity: 1;
+
+
+
+}
+#min{
+    width: 1.6%;
+    height: 30%;
+    top: 18%;
+    left: 49%;
+    opacity: 0.8;
+
+
+}
+#secs{
+    width: 1%;
+    height: 40%;
+    top: 8.5%;
+    left: 49.5%;
+    opacity: 0.8;
+
+
+}
+    
